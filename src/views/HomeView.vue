@@ -48,7 +48,7 @@ function addRestaurant() {
     </form>
     <ul>
       <li v-for="restaurant in restaurantList" :key="restaurant.name">
-        {{ restaurant }}
+        {{ restaurant.name }} - {{ restaurant.status }}
       </li>
     </ul>
   </main>
